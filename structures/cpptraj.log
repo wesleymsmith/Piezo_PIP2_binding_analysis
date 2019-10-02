@@ -1,0 +1,14 @@
+# 10/02/19 14:19:26
+# Piezo_PIP2.prot_only.parm7
+# Loaded topologies:
+#   Piezo_PIP2.prot_only.parm7
+trajin Piezo_PIP2.prot_only.dcd 1
+trajout Piezo_PIP2.prot_only.pdb
+# 10/02/19 14:20:23
+# Piezo_PIP2.prot_only.parm7
+# Loaded topologies:
+#   Piezo_PIP2.prot_only.parm7
+trajin Piezo_PIP2.prot_only.dcd 1 1 1
+trajout Piezo_PIP2.prot_only.pdb
+go
+quit
