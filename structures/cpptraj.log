@@ -1,0 +1,18 @@
+# 10/02/19 13:04:59
+# Piezo_PIP2.all_atom.parm7
+# Loaded topologies:
+#   Piezo_PIP2.all_atom.parm7
+resinfo
+quit
+# 10/02/19 13:05:20
+# Piezo_PIP2.all_atom.parm7
+# Loaded topologies:
+#   Piezo_PIP2.all_atom.parm7
+trajin Piezo_PIP2.all_atom.dcd
+quit
+# 10/02/19 13:06:57
+# Piezo_PIP2.all_atom.parm7
+# Loaded topologies:
+#   Piezo_PIP2.all_atom.parm7
+trajin Piezo_PIP2.all_atom.dcd
+quit
