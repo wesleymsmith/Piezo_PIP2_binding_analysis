@@ -1,0 +1,5 @@
+# ignore trajectory files
+*.nc
+*.dcd
+*.mdtraj
+*.trr
