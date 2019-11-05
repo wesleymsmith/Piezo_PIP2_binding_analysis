@@ -1,0 +1,446 @@
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=node001
+MODULE_VERSION_STACK=3.2.10
+SLURM_JOB_NAME=aa_calc_residen
+MANPATH=/home/wenjuan/work/scr/mdstress/share/man:/cm/shared/apps/mvapich2/gcc/64/2.2b/share/man:/cm/local/apps/cuda/libs/current/share/man:/cm/shared/apps/slurm/15.08.13/man:/cm/shared/apps/miniconda/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man/en:/usr/share/man:/usr/local/man:/cm/local/apps/environment-modules/current/share/man
+CUDA_PATH=/cm/shared/apps/cuda55/toolkit/5.5.22
+CUDA_INC_PATH=/cm/shared/apps/cuda55/toolkit/5.5.22
+SLURMD_NODENAME=node001
+SLURM_TOPOLOGY_ADDR=node001
+SLURM_NTASKS_PER_NODE=12
+HOSTNAME=node001
+SLURM_PRIO_PROCESS=0
+FFTWDIR=/cm/shared/apps/fftw/openmpi/open64/64/2.1.5/float/lib
+SLURM_NODE_ALIASES=(null)
+TERM=xterm
+SHELL=/bin/bash
+SLURM_JOB_QOS=normal
+HISTSIZE=1000
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_CLIENT=10.4.34.38 55897 22
+CUDA_SDK=/cm/shared/apps/cuda55/sdk/5.5.22
+LIBRARY_PATH=/cm/local/apps/cuda/libs/current/lib64:/cm/shared/apps/slurm/15.08.13/lib64/slurm:/cm/shared/apps/slurm/15.08.13/lib64
+GMXMAN=/home/wenjuan/work/scr/mdstress/share/man
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+GMXDIR=/cm/shared/apps/gromacs-2016.4/bin
+SSH_TTY=/dev/pts/1
+SLURM_NNODES=1
+USER=wenjuan
+CUDA_HOME=/cm/shared/apps/cuda55/toolkit/5.5.22/
+SILCSBIODIR=/cm/shared/apps/silcsbio.2018.1
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LD_LIBRARY_PATH=/home/wenjuan/work/scr/mdstress/lib64:/home/wenjuan/work/diffusion_analysis_MD/lib:/home/wenjuan/work/mdstress/lib64:/usr/lib64/tcl8.5:/cm/shared/apps/lib64:/cm/shared/apps/cuda55/toolkit/5.5.22//lib:/cm/shared/apps/cuda55/toolkit/5.5.22//lib64:/cm/shared/apps/gcc/4.8.1/lib64:/cm/shared/apps/gcc/4.8.1/lib:/cm/shared/apps/fftw/openmpi/open64/64/2.1.5/float/lib/:/cm/shared/apps/hdf5/1.6.10/lib:/cm/shared/apps/mvapich2/gcc/64/2.2b/lib:/cm/shared/apps/cuda55/toolkit/5.5.22/extras/CUPTI/lib:/cm/shared/apps/cuda55/toolkit/5.5.22/open64/lib:/cm/local/apps/cuda/libs/current/lib64:/cm/shared/apps/slurm/15.08.13/lib64/slurm:/cm/shared/apps/slurm/15.08.13/lib64:/cm/local/apps/gcc/5.2.0/lib:/cm/local/apps/gcc/5.2.0/lib64:/cm/shared/apps/cuda55/toolkit/5.5.22/lib:/cm/shared/apps/cuda55/toolkit/5.5.22/lib64:/cm/shared/apps/gcc/4.8.1/lib64:/cm/shared/apps/gcc/4.8.1/lib:/cm/shared/apps/loose/lib
+MPICH_USE_SHLIB=yes
+SLURM_JOBID=31228
+SSH_AUTH_SOCK=/tmp/ssh-FJggr21178/agent.21178
+CPATH=/cm/shared/apps/cuda55/sdk/5.5.22/common/inc:/cm/shared/apps/cuda55/toolkit/5.5.22/include:/cm/shared/apps/slurm/15.08.13/include
+CUDA_CACHE_DISABLE=1
+GMXDATA=/home/wenjuan/work/scr/mdstress/share/gromacs
+SLURM_NTASKS=12
+SLURM_TASKS_PER_NODE=12
+PATH=/home/wenjuan/work/scr/mdstress/bin:/home/wenjuan/work/protein/Piezo/memb_curv_software/SuAVE-19-09:/shared2/work/wenjuan/miniconda3/bin:/shared2/work/wenjuan/cpptraj-master/bin:/home/wenjuan/.local/bin/:/home/wenjuan/work/mdstresslib/bin:/home/wenjuan/work/scr/mdstress/bin:/cm/shared/apps/mvapich2/gcc/64/1.9//bin:/cm/shared/apps/amber17/bin:/shared2/work/wenjuan/protein/FOP/hole2/exe:/cm/shared/apps/gromacs-2016.4/bin/:/cm/shared/apps/amber17/bin:/cm/shared/apps/bin:/usr/local/bin/:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/usr/local/bin:/cm/shared/apps/hdf5/1.6.10/bin:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/open64/bin:/cm/local/apps/cuda/libs/current/bin:/cm/shared/apps/cuda55/sdk/5.5.22/bin/x86_64/linux/release:/cm/shared/apps/slurm/15.08.13/sbin:/cm/shared/apps/slurm/15.08.13/bin:/cm/local/apps/gcc/5.2.0/bin:/cm/shared/apps/mvapich2/gcc/64/1.9/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/bin:/cm/shared/apps/amber12/bin:/usr/lib64/qt-3.3/bin:/cm/shared/apps/loose/bin:/cm/shared/apps/rosetta/bin:/cm/shared/apps/autodock/bin:/cm/shared/apps/miniconda/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/cm/local/apps/cuda/libs/current/pynvml:/cm/shared/apps/amber17/bin:/home/lyna:/home/lyna/carma/bin/linux:/home/lyna/catdcd/LINUX/bin/catdcd4.0:/cm/shared/apps/bin:/usr/local/bin/:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/usr/local/bin:/cm/shared/apps/hdf5/1.6.10/bin:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/open64/bin:/cm/local/apps/cuda/libs/current/bin:/cm/shared/apps/cuda55/sdk/5.5.22/bin/x86_64/linux/release:/cm/shared/apps/slurm/15.08.13/sbin:/cm/shared/apps/slurm/15.08.13/bin:/cm/local/apps/gcc/5.2.0/bin:/cm/shared/apps/mvapich2/gcc/64/1.9/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/bin:/cm/shared/apps/amber12/bin:/usr/lib64/qt-3.3/bin:/cm/shared/apps/loose/bin:/cm/shared/apps/rosetta/bin:/cm/shared/apps/autodock/bin:/cm/shared/apps/miniconda/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/home/wenjuan/bin
+MAIL=/var/spool/mail/wenjuan
+MODULE_VERSION=3.2.10
+CUDA_INSTALL_PATH=/cm/shared/apps/cuda55/toolkit/5.5.22
+GROMACS_DIR=/home/wenjuan/work/scr/mdstress
+SLURM_JOB_ID=31228
+LD_RUN_PATH=/cm/shared/apps/fftw/openmpi/open64/64/2.1.5/float/lib/:/cm/shared/apps/mvapich2/gcc/64/2.2b/lib:/cm/local/apps/cuda/libs/current/lib64:/cm/shared/apps/cuda55/toolkit/5.5.22/lib
+SLURM_JOB_USER=wenjuan
+PWD=/home/wenjuan/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+CUDA_VISIBLE_DEVICES=NoDevFiles
+_LMFILES_=/cm/local/modulefiles/gcc/5.2.0:/cm/shared/modulefiles/slurm/15.08.13:/cm/shared/modulefiles/cuda55/toolkit/5.5.22:/cm/shared/modulefiles/mvapich2/gcc/64/2.2b:/cm/shared/modulefiles/hdf5/1.6.10:/cm/shared/modulefiles/fftw2/openmpi/open64/64/float/2.1.5
+LANG=en_US.UTF-8
+MODULEPATH=/cm/local/modulefiles:/cm/shared/modulefiles
+FFTWINCLUDE=/cm/shared/apps/fftw/openmpi/open64/64/2.1.5/float/include
+SLURM_JOB_UID=1014
+LOADEDMODULES=gcc/5.2.0:slurm/15.08.13:cuda55/toolkit/5.5.22:mvapich2/gcc/64/2.2b:hdf5/1.6.10:fftw2/openmpi/open64/64/float/2.1.5
+SLURM_NODEID=0
+P4_GLOBMEMSIZE=67108864
+SLURM_SUBMIT_DIR=/shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+SLURM_TASK_PID=19900
+SLURM_NPROCS=12
+HDF5INCLUDE=/cm/shared/apps/hdf5/1.6.10/include
+SLURM_CPUS_ON_NODE=12
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+SLURM_JOB_NODELIST=node001
+HOME=/home/wenjuan
+SHLVL=2
+SLURM_LOCALID=0
+SLURM_GET_USER_ENV=1
+SLURM_JOB_CPUS_PER_NODE=12
+SLURM_CLUSTER_NAME=slurm_cluster
+HDF5LIB=hdf5
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=headnode
+INCLUDEPATH=/cm/shared/apps/cuda55/toolkit/5.5.22/extras/Debugger/include:/cm/shared/apps/cuda55/toolkit/5.5.22/extras/CUPTI/include:/cm/shared/apps/cuda55/toolkit/5.5.22/include/CL:/cm/shared/apps/cuda55/sdk/5.5.22/common/inc:/cm/shared/apps/cuda55/toolkit/5.5.22/include
+SLURM_JOB_PARTITION=gpus
+GMXBIN=/home/wenjuan/work/scr/mdstress/bin
+LOGNAME=wenjuan
+PYTHONPATH=/home/wenjuan/work/miniconda3/pkgs/python-2.7.15-h1571d57_0/bin:/shared2/work/wenjuan/cpptraj-master/bin:/home/wenjuan/.local/bin/:/home/wenjuan/work/mdstresslib/bin:/home/wenjuan/work/scr/mdstress/bin:/cm/shared/apps/mvapich2/gcc/64/1.9//bin:/cm/shared/apps/amber17/bin:/shared2/work/wenjuan/protein/FOP/hole2/exe:/cm/shared/apps/gromacs-2016.4/bin/:/cm/shared/apps/amber17/bin:/cm/shared/apps/bin:/usr/local/bin/:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/usr/local/bin:/cm/shared/apps/hdf5/1.6.10/bin:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/open64/bin:/cm/local/apps/cuda/libs/current/bin:/cm/shared/apps/cuda55/sdk/5.5.22/bin/x86_64/linux/release:/cm/shared/apps/slurm/15.08.13/sbin:/cm/shared/apps/slurm/15.08.13/bin:/cm/local/apps/gcc/5.2.0/bin:/cm/shared/apps/mvapich2/gcc/64/1.9/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/bin:/cm/shared/apps/amber12/bin:/usr/lib64/qt-3.3/bin:/cm/shared/apps/loose/bin:/cm/shared/apps/rosetta/bin:/cm/shared/apps/autodock/bin:/cm/shared/apps/miniconda/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/cm/local/apps/cuda/libs/current/pynvml::/cm/shared/apps/amber17/bin:/home/lyna:/home/lyna/carma/bin/linux:/home/lyna/catdcd/LINUX/bin/catdcd4.0:/cm/shared/apps/bin:/usr/local/bin/:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/usr/local/bin:/cm/shared/apps/hdf5/1.6.10/bin:/cm/shared/apps/mvapich2/gcc/64/2.2b/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/open64/bin:/cm/local/apps/cuda/libs/current/bin:/cm/shared/apps/cuda55/sdk/5.5.22/bin/x86_64/linux/release:/cm/shared/apps/slurm/15.08.13/sbin:/cm/shared/apps/slurm/15.08.13/bin:/cm/local/apps/gcc/5.2.0/bin:/cm/shared/apps/mvapich2/gcc/64/1.9/bin:/cm/shared/apps/cuda55/toolkit/5.5.22/bin:/cm/shared/apps/amber12/bin:/usr/lib64/qt-3.3/bin:/cm/shared/apps/loose/bin:/cm/shared/apps/rosetta/bin:/cm/shared/apps/autodock/bin:/cm/shared/apps/miniconda/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+GMXLDLIB=/home/wenjuan/work/scr/mdstress/lib64
+GPU_DEVICE_ORDINAL=NoDevFiles
+SSH_CONNECTION=10.4.34.38 55897 10.5.10.18 22
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/cm/local/apps/environment-modules/3.2.10/Modules/3.2.10
+MPI_HOME=/cm/shared/apps/mvapich2/gcc/64/1.9/
+PKG_CONFIG_PATH=/home/wenjuan/work/scr/mdstress/lib64/pkgconfig
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+HDF5DIR=/cm/shared/apps/hdf5/1.6.10/lib
+DISPLAY=localhost:14.0
+MPI_RUN=/cm/shared/apps/mvapich2/gcc/64/2.2b/bin/mpirun_rsh
+INCLUDE=/cm/shared/apps/loose/include:
+CUDA_ROOT=/cm/local/apps/cuda/libs/current
+FFTWLIB=fftw
+AMBERHOME=/cm/shared/apps/amber17
+VMD_PLUGIN_PATH=/usr/local/lib/vmd-1.9.1/plugins/LINUXAMD64/molfile
+G_BROKEN_FILENAMES=1
+SUAVE=/home/wenjuan/work/protein/Piezo/memb_curv_software/SuAVE-19-09
+BASH_FUNC_module()=() {  eval `/cm/local/apps/environment-modules/3.2.10/Modules/$MODULE_VERSION/bin/modulecmd sh $*`
+}
+_=/bin/env
+Mon Nov  4 14:21:49 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 390.46                 Driver Version: 390.46                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 980     On   | 00000000:02:00.0 Off |                  N/A |
+| 61%   82C    P2   136W / 180W |   2197MiB /  4043MiB |     99%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  GeForce GTX 980     On   | 00000000:03:00.0 Off |                  N/A |
+| 77%   85C    P2   132W / 180W |   2197MiB /  4043MiB |     99%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  GeForce GTX 980     On   | 00000000:83:00.0 Off |                  N/A |
+| 65%   83C    P2   142W / 180W |   2197MiB /  4043MiB |     99%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  GeForce GTX 980     On   | 00000000:84:00.0 Off |                  N/A |
+| 73%   84C    P2   137W / 180W |   2197MiB /  4043MiB |     99%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0     17552      C   ...shared/apps/amber16_cuda/bin/pmemd.cuda  2186MiB |
+|    1     17895      C   ...shared/apps/amber16_cuda/bin/pmemd.cuda  2186MiB |
+|    2     18189      C   ...shared/apps/amber16_cuda/bin/pmemd.cuda  2186MiB |
+|    3     18497      C   ...shared/apps/amber16_cuda/bin/pmemd.cuda  2186MiB |
++-----------------------------------------------------------------------------+
+start time: 
+Mon Nov  4 14:21:49 PST 2019
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_1_mask -seltype res_com -select 'resnr 1 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "There is just one thing I can promise you about the outer-space program: your tax dollar will go farther." (Wernher von Braun)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_15_mask -seltype res_com -select 'resnr 15 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "I Could Take You Home and Abuse You" (Magnapop)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_21_mask -seltype res_com -select 'resnr 21 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "Never Get a Chance to Kick Ass" (The Amps)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_22_mask -seltype res_com -select 'resnr 22 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "Safety lights are for dudes" (Ghostbusters 2016)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_30_mask -seltype res_com -select 'resnr 30 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "In the End Science Comes Down to Praying" (P. v.d. Berg)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_42_mask -seltype res_com -select 'resnr 42 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "Some of these pro-drug messages come from popular culture." (John Walters)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_63_mask -seltype res_com -select 'resnr 63 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   
+Analyzed 8333 frames, last time 8332.000
+
+GROMACS reminds you: "They Were So Quiet About It" (Pixies)
+
+                      :-) GROMACS - gmx select, 2016.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx select, version 2016.4
+Executable:   /cm/shared/apps/gromacs-2016.4/bin//gmx
+Data prefix:  /cm/shared/apps/gromacs-2016.4
+Working dir:  /shared2/work/wenjuan/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+Command line:
+  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc -om id_65_mask -seltype res_com -select 'resnr 65 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL ' -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr
+
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading file /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr, VERSION 2016.4 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   slurmstepd: *** JOB 31228 ON node001 CANCELLED AT 2019-11-04T15:31:01 ***

@@ -1,0 +1,3 @@
+ consistent with Martini interval,
+so here we should change all-atom interval 120ps to 1000ps,
+so the trajectory should be reduced.

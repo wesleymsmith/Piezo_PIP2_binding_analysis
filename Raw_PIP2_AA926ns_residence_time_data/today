@@ -1,0 +1,1000 @@
+  112  ls -ltrh
+  113  cd ../
+  114  ls -ltrh
+  115  cd ../
+  116  ls -ltrh
+  117  squeue
+  118  ls -ltrh
+  119  cd 12nm/
+  120  ls -ltrh
+  121  cd K_200mM/
+  122  LS -LTRH
+  123  ls -ltrh
+  124  pwd
+  125  ls -ltrh
+  126  cp ../../8nm/K_200mM/extract_* .
+  127  vi extract_potentail_z.sh 
+  128  cp ../../8nm/Na_200mM/extract_* .
+  129  ls -ltrh
+  130  vi extract_potentail_z.sh 
+  131  ls -ltrh
+  132  vi extract_potentail_z.sh 
+  133  ls -ltrh
+  134  ./extract_potentail_z.sh 
+  135  ls -ltrh
+  136  cp ../../8nm/K_200mM/*.ipynb .
+  137  ls -ltrh
+  138  vi extract_potentail_z.sh 
+  139  ./extract_potentail_z.sh 
+  140  vi extract_potentail_z.sh 
+  141  ls -ltrh
+  142  ./extract_potentail_z.sh 
+  143  ls -ltrh
+  144  vi extract_potentail_z.sh 
+  145  ./extract_potentail_z.sh 
+  146  ls -ltrh
+  147  vi extract_volmap_z.sh 
+  148  ./extract_volmap_z.sh 
+  149  vi topol.top 
+  150  cd ../Na_200mM/
+  151  ls -ltrh
+  152  cp ../K_200mM/extract_* .
+  153  ls -ltrh
+  154  vi extract_volmap_z.sh 
+  155  ./extract_volmap_z.sh 
+  156  ls -ltrh
+  157  cd ../
+  158  ls -ltrh
+  159  cd ../
+  160  ls -ltrh
+  161  cp 12nm/K_200mM/*.ipynb .
+  162  ls -ltrh
+  163  pwd
+  164  ls -ltrh
+  165  vi 6nm/K_200mM/volmap_HS.txt 
+  166  vi 8nm/K_200mM/volmap_HS.txt 
+  167  vi 12nm/K_200mM/volmap_HS.txt 
+  168  cd /home/wenjuan/work/protein/JimLab/heparan/convg_length/8nm/Na_200mM
+  169  ls -ltrh
+  170  /cm/shared/apps/miniconda/bin/jupyter notebook
+  171  ls -0ltrh
+  172  ls -ltrh
+  173  pwd
+  174  cd ../../12nm/K_200mM/
+  175  ls -ltrh
+  176  pwd
+  177  /cm/shared/apps/miniconda/bin/jupyter notebook
+  178  cd /home/wenjuan/work/protein/JimLab/heparan/convg_length
+  179  ls -ltrh
+  180  /cm/shared/apps/miniconda/bin/jupyter notebook
+  181  cd work/protein/JimLab/heparan/convg_length/
+  182  ls -ltrh
+  183  /cm/shared/apps/miniconda/bin/jupyter notebook
+  184  cd 12nm/Na_200mM/
+  185  ls -ltrh
+  186  cp ../../8nm/Na_200mM/*.ipynb .
+  187  ls -ltrh
+  188  /cm/shared/apps/miniconda/bin/jupyter notebook
+  189  cd ../../
+  190  ls -ltrh
+  191  /cm/shared/apps/miniconda/bin/jupyter notebook
+  192  squeue
+  193  cd work/protein/JimLab/heparan/convg_length/12nm/Na_200mM/
+  194  ls -ltrh
+  195  vi extract_potentail_z.sh 
+  196  ls -ltrh
+  197  ./extract_potentail_z.sh 
+  198  vi extract_potentail_z.sh 
+  199  ls -ltrh
+  200  ./extract_potentail_z.sh 
+  201  vi extract_potentail_z.sh 
+  202  ./extract_potentail_z.sh 
+  203  squeue
+  204  ls -ltrh
+  205  cd work/protein/
+  206  ls -ltrh
+  207  mkdir Piezo/
+  208  cd Piezo/
+  209  ls -ltrh
+  210  mkdir memb_Curvature
+  211  ls -ltrh
+  212  mv memb_Curvature/ memb_curv_software
+  213  ls -ltrh
+  214  pwd
+  215  ls -ltrh
+  216  cd memb_curv_software/
+  217  ls -ltrh
+  218  unzip SuAVE-Tutorial.zip 
+  219  ls -ltrh
+  220  unzip SuAVE-ubuntu.zip 
+  221  ls -ltrh
+  222  cd SuAVE-19-09/
+  223  ls
+  224  ls -ltrh
+  225  cat README 
+  226  ls -ltrh
+  227  pwd
+  228  vi ~/.bashrc
+  229  source ~/.bashrc
+  230  s_area 
+  231  s_area -h
+  232  s_topog 
+  233  ./s_topog 
+  234  exit
+  235  cd work/protein/Piezo/memb_curv_software/
+  236  ls -ltrh
+  237  ./s_index -h
+  238  $SUAVE
+  239  $PATH
+  240  s_index 
+  241  ls -ltrh
+  242  unzip SuAVE-MacOs.zip 
+  243  ls -ltrh
+  244  s_index 
+  245  s_index -h
+  246  ./s_index -in 
+  247  s_topog 
+  248  squeue
+  249  cd work/protein/Piezo/
+  250  ls -ltrh
+  251  cd memb_curv_software/
+  252  ls -ltrh
+  253  pwd
+  254  ls -ltrh
+  255  cd work/protein/Piezo/memb_curv_software/
+  256  ls -ltrh
+  257  pwd
+  258  exit
+  259  cd work/protein/Piezo/asym_memb_PIP2/reverse_elyn_1000posres_12us_pip2/
+  260  ls 
+  261  ls -ltrh
+  262  vi step6.6_equilibration.gro 
+  263  ls -ltrh
+  264  cd work/protein/Piezo/memb_curv_software/
+  265  ls -ltrh
+  266  cd SuAVE-19-09/
+  267  ls
+  268  cd ../
+  269  ls -ltrh
+  270  mkdir results_home
+  271  ls -ltrh
+  272  cd results_home/
+  273  ls -ltrh
+  274  vi description_SuAVE
+  275  ls -ltrh
+  276  pwd
+  277  ls -ltrh
+  278  du -sh
+  279  ls -ltrh
+  280  du -sh
+  281  ls -ltrh
+  282  exit
+  283  cd work/protein/Piezo/asym_memb_PIP2/
+  284  ls -ltrh
+  285  cd reverse_elyn_1000posres_12us_pip2/
+  286  ls -ltrh
+  287  vi step6.6_equilibration.gro 
+  288  tail -20 step6.6_equilibration.gro 
+  289  cd /home/wenjuan/work/protein/Piezo/sameSizePBC_CG
+  290  ls -ltrh
+  291  vmd step7.012_production.gro 
+  292  pwd
+  293  cd /home/wenjuan/work/protein/Piezo/sameSizePBC_CG
+  294  ls -ltrh
+  295  vmd step7.012_production.gro 
+  296  cd ../
+  297  ls -ltrh
+  298  cd memb_curv_software/
+  299  ls -ltrh
+  300  cd results_home/
+  301  ls -ltrh
+  302  vmd
+  303  cd work/protein/Piezo/sameSizePBC_CG/
+  304  ls -ltrh
+  305  tail -2 step7.012_production.gro 
+  306  pwd
+  307  ls
+  308  vi step6.1_equilibration.gro 
+  309  ls -ltrh
+  310  vi topol.top 
+  311  ls -ltrh
+  312  rm s7.011.380ns.gro 
+  313  ls -ltrh
+  314  du -sh
+  315  ls -ltrh
+  316  cd work/protein/Piezo/
+  317  squeue
+  318  ls -ltrh
+  319  cd revese_anton2/
+  320  ls
+  321  ls -ltrh
+  322  cd ely_posre/
+  323  df
+  324  ls -ltrh
+  325  cd 12us_pip2/
+  326  ls -ltrh
+  327  cd mkdir ext190ns
+  328  mkdir ext190ns
+  329  ls -ltrh
+  330  cd ext190ns/
+  331  ls -ltrh
+  332  vi jobid_13065
+  333  ls -ltrh
+  334  vi jobid_13065 
+  335  ls -ltrh
+  336  pwd
+  337  ls -ltrh
+  338  vmd
+  339  ls -ltrh
+  340  xmgrace-5.99.0 
+  341  cd work/protein/Piezo/
+  342  ls -ltrh
+  343  cd asym_memb_MARTINI/
+  344  ls -ltrh
+  345  cd CG_mdrun/
+  346  ls
+  347  ls -ltrh
+  348  vi topol.top 
+  349  vi Protein.itp 
+  350  pwd
+  351  vi topol.top 
+  352  cd ../
+  353  ls -ltrh
+  354  cd ../
+  355  ls -ltrh
+  356  cd asym_memb_PIP2
+  357  ls -ltrh
+  358  cd CGrun/
+  359  ls
+  360  vi Protein.itp 
+  361  ls -ltrh
+  362  pwd
+  363  cd ../
+  364  ls -ltrh
+  365  cd ../
+  366  cd asym_memb_Replica_pip2
+  367  ls
+  368  cd CGrun/
+  369  ls
+  370  vi Protein.itp 
+  371  ls -ltrh
+  372  tail -30 step7.014_production.log 
+  373  ls -ltrh
+  374  pwd
+  375  vi topol.top 
+  376  cd ../
+  377  cd ../asym_memb_PIP2/CGrun/
+  378  ls -lrth
+  379  vi topol.top 
+  380  cd ../../
+  381  ls -ltrh
+  382  cd sameSizePBC_CG/
+  383  ls -ltrh
+  384  vi topol.top 
+  385  vi Protein.itp 
+  386  ls -ltrh
+  387  cd ../
+  388  ls -ltrh
+  389  cd sameSizePBC_CG/
+  390  ls -ltrh
+  391  vi topol.top 
+  392  vi Protein.itp 
+  393  vi step7.012_production.mdp 
+  394  cd ../
+  395  cd asym_memb_PIP2/CGrun/
+  396  ls
+  397  vi Protein.itp 
+  398  vi topol.top 
+  399  vmd
+  400  ls -ltrh
+  401  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/
+  402  ls
+  403  ls -ltrh
+  404  cd ext190ns/
+  405  ls -ltrh
+  406  pwd
+  407  ls -ltrh
+  408  vi ../ext100ns/cpptraj.log 
+  409  cpptraj ../100ns/topol.nochamber.parm7 
+  410  ls -ltrh
+  411  squeue
+  412  cd work/protein/Piezo/
+  413  ls -ltrh
+  414  cd revese_anton2/ely_posre/12us_pip2/
+  415  ls -ltrh
+  416  cd ext190ns/
+  417  ls
+  418  cd amber_run/
+  419  ls
+  420  ls -ltrh
+  421  cat mdinfo 
+  422  ls -ltrh
+  423  tail slurm-3106
+  424  tail slurm-31066.out 
+  425  tail production.startup.out 
+  426  ls -ltrh
+  427  cat mdinfo 
+  428  ls -ltrh
+  429  vmd
+  430  cd work/protein/Piezo/
+  431  ls -ltrh
+  432  cd sameSizePBC_CG/
+  433  ls -ltrh
+  434  vmd s7.012.pro.gro 
+  435  vmd step6.3_equilibration.gro 
+  436  pwd
+  437  ls -ltrh
+  438  vi step6.4_equilibration.mdp 
+  439  ls -ltrh
+  440  vi Protein.itp 
+  441  diff Protein.itp ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/Protein.itp 
+  442  diff topol.top ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/topol.top 
+  443  diff step6.4_equilibration.mdp  ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/step6.4_equilibration.mdp 
+  444  diff step6.1_equilibration.mdp  ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/step6.1_equilibration.mdp 
+  445  ls *.itp -ltrh
+  446  ls ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  447  ls ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/*.itp 
+  448  ls *.itp -ltrh
+  449  ls ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/*.itp  -ltrh
+  450  vi topol.top 
+  451  ls -ltr
+  452  ls -ltrh
+  453  diff step7_production.mdp  ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/step7_production.mdp 
+  454  vmd cg_sym_cut_pbc_sol_ion.gro 
+  455  ls -ltrh
+  456  mkdir Replica2
+  457  ls -ltrh
+  458  cd Replica2/
+  459  cp ../*.itp .
+  460  cp ../cg_sym_cut_pbc_sol_ion.gro .
+  461  ls -ltrh
+  462  vmd cg_sym_cut_pbc_sol_ion.gro 
+  463  ls -ltrh
+  464  cp ../step6.0_equilibration.mdp .
+  465  cp ../step6.1_equilibration.mdp .
+  466  ls -ltrh
+  467  cp ../run*.sh
+  468  cat run.
+  469  cat run.s
+  470  cat run.sh
+  471  ls -ltrh
+  472  cp ../run* .
+  473  ls -ltrh
+  474  cat run.sh 
+  475  gmx grompp -f step6.0_equilibration.mdp -c cg_sym_cut_pbc_sol_ion.gro -
+  476  cp ../topol.top .
+  477  cp ../index.ndx .
+  478  gmx grompp -f step6.0_equilibration.mdp -c cg_sym_cut_pbc_sol_ion.gro -p topol.top -n index.ndx -o step6.0_equilibration.tpr -maxwarn 10
+  479  cat run.sh 
+  480  gmx mdrun -deffnm step6.0_equilibration
+  481  vi step6.0_equilibration.gro 
+  482  gmx grompp -f step6.0_equilibration.mdp -c step6.0_equilibration.gro -p topol.top -n index.ndx -o step6.0_equilibration.tpr -maxwarn 10
+  483  cp ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/step6.0_equilibration.mdp .
+  484  diff step6.0_equilibration.mdp ../step6.0_equilibration.mdp 
+  485  vi step6.0_equilibration.mdp 
+  486  vi cg_sym_cut_pbc_sol_ion.gro 
+  487  cat run.sh 
+  488  gmx mdrun -deffnm step6.0_equilibration 
+  489  ls -ltrh
+  490  vmd step6.0_equilibration.gro 
+  491  cd ~/work/protein/Piezo/
+  492  ls -ltrh
+  493  cd revese_anton2/
+  494  ls -ltrh
+  495  cd ely_posre/
+  496  ls -ltrh
+  497  cd 12us_pip2/
+  498  ls -ltrh
+  499  cd ext190ns/
+  500  ls -ltrh
+  501  cpptraj ../100ns/topol.nochamber.parm7 
+  502  ls -ltrh
+  503  mkdir amber_run
+  504  cd amber_run/
+  505  cp ../lastframe.rst7 .
+  506  cp ../../amber/*.mdin .
+  507  cp ../../amber/Run_prod.cuda.sh .
+  508  ls -ltrh
+  509  vi Run_prod.cuda.sh 
+  510  ls -ltrh
+  511  vi Run_prod.cuda.sh 
+  512  sbatch Run_prod.cuda.sh 
+  513  squeue
+  514  ls -ltrh
+  515  vi slurm-31065.out 
+  516  vi Run_prod.cuda.sh 
+  517  sbatch Run_prod.cuda.sh 
+  518  squeue
+  519  ls -ltrh
+  520  squeue
+  521  ls -ltrh
+  522  squeue
+  523  ls -ltrh
+  524  squeue
+  525  ls -ltrh
+  526  cat mdinfo 
+  527  ls -ltrh
+  528  tail -30 production.startup.out 
+  529  squeue
+  530  ls -ltrh
+  531  cat mid
+  532  cat mdinfo 
+  533  ls -ltrh
+  534  cat mdinfo 
+  535  squeue
+  536  ls -ltrh
+  537  tail -30 production.startup.out 
+  538  ls -ltrh
+  539  squeue
+  540  ls -ltrh
+  541  cat mdinfo 
+  542  ls -ltrh
+  543  cat mdinfo 
+  544  squeue
+  545  ls -ltrh
+  546  squeue
+  547  ls -ltrh
+  548  vi slurm-31066.out 
+  549  vi Run_prod.cuda.sh 
+  550  sbatch Run_prod.cuda.sh 
+  551  squeue
+  552  ls -ltrh
+  553  vmd ../../100ns/topol.nochamber.parm7 
+  554  squeue
+  555  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/
+  556  ls -ltrh
+  557  cd ext190ns/amber_run/
+  558  ls -ltrh
+  559  cat mdinfo 
+  560  ls -ltrh
+  561  squeue
+  562  cpptraj ../../100ns/topol.nochamber.parm7 
+  563  ls -ltrh
+  564  cd ../
+  565  ls
+  566  pwd
+  567  cd ../../
+  568  cd ../
+  569  ls -ltrh
+  570  cd ../
+  571  ls -ltrh
+  572  cd asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  573  ls -ltrh
+  574  vi slurm-24692.out 
+  575  less  /cm/shared/apps/gromacs-2016.4/share/gromacs/top/
+  576  cd ~/work/protein/Piezo/revese_anton2/ely_posre/
+  577  ls -ltrh
+  578  cd 12us_pip2/
+  579  ls -ltrh
+  580  cd ext190ns/
+  581  ls -ltrh
+  582  cd ../
+  583  ls -ltrh
+  584  cd 100ns_R
+  585  cd 100ns_res/
+  586  ls -ltrh
+  587  cd ../
+  588  ls -ltrh
+  589  cd ext190ns/
+  590  ls -ltrh
+  591  cpptraj ../100ns/topol.nochamber.parm7 
+  592  ls -ltrh
+  593  cp lastframe.pdb lastframe.pro.pdb
+  594  vi lastframe.pro.pdb 
+  595  ls -ltrh
+  596  cd work/protein/Piezo/
+  597  LS -LTRH
+  598  ls -ltrh
+  599  cd   revese_anton2/ely_posre/12us_pip2/ext190ns/
+  600  ls -ltrh
+  601  rm lastframe.pro.pdb~ 
+  602  ls -ltrh
+  603  vmd lastframe.pro.pdb 
+  604  cd work/protein/Piezo/sameSizePBC_CG/
+  605  ls -ltrh
+  606  cd Replica2/
+  607  ls -ltrh
+  608  rm step*.pdb
+  609  ls -ltrh
+  610  tail -30 step6.0_equilibration.log 
+  611  ls -ltrh
+  612  tail -30 step6.0_equilibration.log 
+  613  ls -ltrh
+  614  vmd step6.0_equilibration.gro 
+  615  vmd ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/step6.0_equilibration.gro 
+  616  diff Protein.itp ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/Protein.itp 
+  617  diff Protein.itp ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  618  diff martini_v2.0_POPC_02.itp  ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/martini_v2.0_POP2_01_modi.itp 
+  619  diff martini_v2.0_POP2_02.itp  ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/martini_v2.0_POP2_01_modi.itp 
+  620  diff martini_v2.0_POP2_01_modi.itp ~/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/martini_v2.0_POP2_01_modi.itp 
+  621  vi Protein.itp 
+  622  ls -ltrh
+  623  vi step6.0_equilibration.mdp 
+  624  ls -ltrh
+  625  tail -30 step6.0_equilibration.log 
+  626  ls -ltrh
+  627  rm \#*
+  628  ls -ltrh
+  629  tail -30 step6.0_equilibration.log 
+  630  ls -ltrh
+  631  squeue
+  632  cd ../
+  633  cd ../asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  634  ls -ltrh
+  635  tail step7.012_production.gro 
+  636  cd ../
+  637  ls
+  638  ls -ltrh
+  639  vi insane_POP5.py 
+  640  ls -ltrh
+  641  cd CGrun_posres/
+  642  ls -ltrh
+  643  vi step7_production.mdp 
+  644  vi Protein.itp 
+  645  vi topol.top 
+  646  vi step7.001_production.mdp 
+  647  squeue
+  648  cd ~/work/protein/
+  649  ls -ltrh
+  650  cd Piezo/
+  651  ls -ltrh
+  652  cd asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  653  ls -ltrh
+  654  vi step7_production.mdp 
+  655  ls -ltrh
+  656  vi Protein.itp 
+  657  squeue
+  658  scancel 31068
+  659  squeue
+  660  ls -ltrh
+  661  squeue
+  662  ls -ltrh
+  663  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  664  ls -ltrh
+  665  vmd 
+  666  vmd
+  667  ls -ltrh
+  668  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  669  ls -ltrh
+  670  vi lastframe.pro.pdb 
+  671  cd work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  672  ls -ltrh
+  673  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  674  ls -ltrh
+  675  vmd lastframe.pro.pdb
+  676  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/
+  677  ls -ltrh
+  678  cd ext190ns/
+  679  ls -ltrh
+  680  rm lastframe.pro.pdb~
+  681  cd /home/wenjuan/work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns
+  682  vmd
+  683  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  684  pwd
+  685  ps ax | grep vmd | grep wenjuan
+  686  cat ~/work/protein/analysis_template/kill_jobs_commd 
+  687  ps ax grep yichun
+  688  ps ax | grep yichun
+  689  ps ax | grep yichun | grep MGLTOOL
+  690  ps ax | grep yichun | grep mgl
+  691  squeue
+  692  df
+  693  ps ax | grep wenjuan
+  694  cat ~/work/protein/analysis_template/kill_jobs_commd 
+  695  ls -ltrh
+  696  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  697  pwd
+  698  squeue
+  699  ls -ltrh
+  700  ls -ltrh
+  701  cd work/protein/Piezo/
+  702  ls -ltrh
+  703  vmd
+  704  cpptraj
+  705  ls -ltrh
+  706  cd revese_anton2/
+  707  ls -ltrh
+  708  cd ely_posre/
+  709  ls -ltrh
+  710  cd 12us_pip2/
+  711  ls -ltrh
+  712  pwd
+  713  ls -ltrh
+  714  chmod 777 6b3r.pdb 
+  715  ls -ltrh
+  716  squeue
+  717  cd work/protein/Piezo/
+  718  ls -ltrh
+  719  cd revese_anton2/ely_posre/12us_pip2/ext190ns/
+  720  ls -ltrh
+  721  cd amber_run/
+  722  ls -ltrh
+  723  cat mdinfo 
+  724  ls -ltrh
+  725  sbatch Run_prod.cuda.sh 
+  726  squeue
+  727  ls -ltrh
+  728  squeue
+  729  ls -ltrh
+  730  squeue
+  731  ls -ltrh
+  732  cat mdinfo 
+  733  ls -ltrh
+  734  cat mdinfo 
+  735  ls -ltrh
+  736  cat mdinfo 
+  737  squeue
+  738  ls -ltrh
+  739  cat mdinfo 
+  740  ls -ltrh
+  741  cat mdinfo 
+  742  ls -ltrh
+  743  squeue
+  744  ls -ltrh
+  745  cat mdinfo 
+  746  ls -ltrh
+  747  squeue
+  748  cd work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/
+  749  ls -ltrh
+  750  pwd
+  751  ls -ltrh
+  752  cd work/protein/Piezo/
+  753  LS -LTRH
+  754  ls -ltrh
+  755  cd revese_anton2/ely_posre/12us_pip2/
+  756  ls -ltrh
+  757  cd ext190ns/
+  758  ls -ltrh
+  759  pwd
+  760  cd work/protein/Piezo/revese_anton2/
+  761  ls -ltrh
+  762  cd ely_posre/
+  763  ls -ltrh
+  764  cd 12us_pip2/
+  765  ls -ltrh
+  766  cd ext190ns/
+  767  ls -ltrh
+  768  rm cut_lastframe.*
+  769  ls -ltrh
+  770  cd gromacs_run/
+  771  ls
+  772  cd ../
+  773  ls -ltrh
+  774  rm -r gromacs_run/
+  775  ls -ltrh
+  776  rm lastframe.pdb 
+  777  ls -ltrh
+  778  cd ../
+  779  ls -ltrh
+  780  cd ext100ns/
+  781  ls -ltrh
+  782  ls *.parm7 -ltrh
+  783  cpptraj ../100ns/topol.nochamber.parm7 
+  784  ls -ltrh
+  785  pwd
+  786  mkdir gromacs_run
+  787  ls -ltrh
+  788  gmx editconf -f f835_cut.pdb -o tt.gro
+  789  rm tt.gro 
+  790  gmx editconf -f f835_cut.pdb -o tt.gro -center 0 0 0
+  791  vi tt.gro 
+  792  gmx editconf -f f835_cut.pdb -o f835_cut_pbc.gro -center 11.109 11.524  7.35 -box 22.244 23.068 14.7
+  793  rm tt.gro 
+  794  ls -ltrh
+  795  gmx editconf -f f835_cut1.pdb -o f835_cut1_pbc.gro -center 11.109 11.524  7.7 -box 22.244 23.068 15.4
+  796  gmx editconf -f f835_cut1.pdb -o f835_cut1_pbc.gro -center 11.109 11.524 8.1 -box 22.244 23.068 16.2
+  797  ls -ltrh
+  798  vi f835.pdb 
+  799  rm \#*
+  800  ls -ltrh
+  801  cd /home/wenjuan/work/protein/JimLab/heparan/convg_length/12nm/K_200mM
+  802  ls -ltrh
+  803  /cm/shared/apps/miniconda/bin/jupyter notebook
+  804  ls -ltrh
+  805  cd /home/wenjuan/work/protein/Piezo/asym_memb_PIP2/reversed_atom_POP5
+  806  ls -ltrh
+  807  vmd step6.6_equilibration.gro 
+  808  cd /home/wenjuan/work/protein/JimLab/heparan/convg_length/12nm/K_200mM
+  809  ls -ltrh
+  810  /cm/shared/apps/miniconda/bin/jupyter notebook
+  811  vmd
+  812  cd ~/work/protein/Piezo/revese_anton2/
+  813  ls -ltrh
+  814  cd ely_posre/
+  815  ls -ltrh
+  816  cd 12us_pip2/
+  817  ls -ltrh
+  818  cd ext190ns/
+  819  ls -ltrh
+  820  mkdir gromacs_run
+  821  ls -ltrh
+  822  vi cpptraj.log 
+  823  cpptraj ../100ns/topol.nochamber.parm7
+  824  ls -ltrh
+  825  vmd lastframe.
+  826  vmd lastframe.align.pdb 
+  827  ls -ltrh
+  828  cd ../
+  829  ls -ltrh
+  830  cd ext100ns/
+  831  ls -ltrh
+  832  vmd f835_cut1_pbc.gro 
+  833  ls -ltrh
+  834  rm f835_cut1_pbc.gro 
+  835  ls -ltrh
+  836  vi f835_cut.pdb 
+  837   gmx editconf -f f835_cut1.pdb -center 0 0 0 -o f1.gro -box 22.244 23.068 15.0
+  838  vmd f1.gro 
+  839   gmx editconf -f f835_cut1.pdb -center 11.109 11.524 7.5 -o f1.gro -box 22.244 23.068 15.0
+  840  ls -ltrh
+  841  rm \#*
+  842  ls -ltrh
+  843  vmd f1.gro
+  844  ls -ltrh
+  845  vmd f835_cut_pbc.gro 
+  846  ls -ltrh
+  847  mv f1.gro f825_cut1_pbc.gro
+  848  ls -ltrh
+  849  head f835_cut_pbc.gro 
+  850  head f835_cut1_pbc.gro 
+  851  mv f825_cut1_pbc.gro f835_cut1_pbc.gro
+  852  ls -ltrh
+  853  head f835_cut1_pbc.gro 
+  854  head f835_cut_pbc.gro 
+  855  vmd f835.pdb
+  856  cd work/protein/Piezo/revese_anton2/ely_posre/
+  857  ls -ltrh
+  858  cd 12us_pip2/
+  859  ls -ltrh
+  860  cd ext190ns/
+  861  ls -ltrh
+  862  cd amber_run/
+  863  ls -ltrh
+  864  cpptraj ../../100ns/topol.nochamber.parm7 
+  865  ls -ltrh
+  866  pwd
+  867  cd ../
+  868  vi amber_run/production.continue.mdin 
+  869  ls -ltrh
+  870  cd ../
+  871  ls -ltrh
+  872  cd ../
+  873  ls -ltrh
+  874  cd ../
+  875  ls -ltrh
+  876  cd asym_memb_Replica_pip2_elnedyn22/
+  877  ls -ltrh
+  878  cd CGrun_posres/
+  879  ls -ltrh
+  880  cd cg_lipid_ana/
+  881  ls -ltrh
+  882  ls *.ipynb -ltrh
+  883  /cm/shared/apps/miniconda/bin/jupyter notebook
+  884  ls -ltrh
+  885  squeue
+  886  cd ~/work/protein/Piezo/revese_anton2/
+  887  ls -ltrh
+  888  cd ely_posre/
+  889  ls -ltrh
+  890  cd 12us_pip2/
+  891  ls -ltrh
+  892  cd work/protein/Piezo/
+  893  ls -ltrh
+  894  cd asym_memb_Replica_pip2_elnedyn22/
+  895  cd CGrun_posres/
+  896  ls -ltrh
+  897  ls
+  898  ls -ltrh
+  899  cd cg_
+  900  cd cg_lipid_ana/
+  901  ls -ltrh
+  902  cd only_LYS_ARG/
+  903  ls -ltrh
+  904  cd calc_cg_all_lysARG/
+  905  ls
+  906  vi run1.sh 
+  907  cd ../calc_aa_all_lysARG/
+  908  ls -ltrh
+  909  vi run1.sh 
+  910  vi ../../s7.001.pro_lig.pdb 
+  911  cd ~/work/protein/Piezo/
+  912  cd ../
+  913  ls -ltrh
+  914  cd JimLab/
+  915  ls -ltrh
+  916  cd heparan/
+  917  ls
+  918  ls -ltrh
+  919  cd convg_length/
+  920  ls -ltrh
+  921  cd 12nm/
+  922  ls -ltrh
+  923  cd K_200mM/
+  924  ls -ltrh
+  925  vi topol.top 
+  926  vi CARB.itp 
+  927  pwd
+  928  cd ~/work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/
+  929  ls -ltrh
+  930  gmx editconf -f cut_lastframe.pdb -o cut_lastframe.gro
+  931  rm cut_lastframe.gro 
+  932  ls -ltrh
+  933  gmx editconf -f cut_lastframe.pdb -o cut_lastframe.gro
+  934  ls -ltrh
+  935  rm \#*
+  936  ls -ltrh
+  937  cp cut_lastframe.gro gromacs_run/
+  938  ls -ltrh
+  939  cd ../ext100ns/
+  940  ls -ltrh
+  941  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext100ns/
+  942  ls -ltrh
+  943  rm f835*pbc.gro
+  944  ls -ltrh
+  945  rm f835_cut.pdb f835_cut1.pdb 
+  946  LS -LTRH
+  947  ls -ltrh
+  948  rm f835_x_cut.pdb 
+  949  ls -ltrh
+  950  vi tt.pdb 
+  951  ls -ltrh
+  952  rm tt.pdb 
+  953  ls -ltrh
+  954  vi f835_cut_x.pdb 
+  955  ls -ltrh
+  956  cp f835_cut_x.pdb gromacs_run/
+  957  ls -ltrh
+  958  cd gromacs_run/
+  959  ls -ltrh
+  960  gmx editconf -f f835_cut_x.pdb -o f835_cut_x.gro
+  961  cp ~/work/protein/Piezo/asym_memb_PIP2/reverse_elyn_1000posres_12us_pip2/*.itp .
+  962  cp ~/work/protein/Piezo/asym_memb_PIP2/reverse_elyn_1000posres_12us_pip2/*.top .
+  963  ls -ltrh
+  964  vi POPC.itp 
+  965  vi f835_cut_x.gro 
+  966  vi SAPI24_rest.itp 
+  967  vi POP5.itp 
+  968  vi f835_cut_x.gro 
+  969  grep POT f835_cut_x.gro | wc
+  970  grep CLA f835_cut_x.gro | wc
+  971  vi pro_charge_positive69
+  972  cp f835_cut_x.gro f835_cut_x_modi.gro
+  973  vi f835_cut_x_modi.gro 
+  974  grep POT f835_cut_x.gro | wc
+  975  grep POT f835_cut_x_modi.gro | wc
+  976  vi f835_cut_x_modi.gro 
+  977  grep POT f835_cut_x_modi.gro | wc
+  978  grep CLA f835_cut_x_modi.gro | wc
+  979  vi f835_cut_x_modi.gro 
+  980  grep CLA f835_cut_x_modi.gro | wc
+  981  grep POT f835_cut_x_modi.gro | wc
+  982  ls -ltrh
+  983  vi f835_cut_x_modi.gro 
+  984  grep OPC f835_cut_x_modi.gro | wc
+  985  vi topol.top 
+  986  grep API f835_cut_x_modi.gro | wc
+  987  vi topol.top 
+  988  grep IP3 f835_cut_x_modi.gro |wc
+  989  vi topol.top 
+  990  grep POT f835_cut_x_modi.gro | wc
+  991  vi topol.top 
+  992  squeue
+  993  ls -ltrh
+  994  squeue
+  995  cd work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext100ns/gromacs_run/
+  996  ls -ltrh
+  997  cat run_mulitple.sh~
+  998  ls -ltrh
+  999  vi run_mulitple.sh~
+ 1000  ls -ltrh
+ 1001  mv ~/work/protein/Piezo/revese_anton2/ely_posre/12us_pip2/ext190ns/pip2_fontsize.jpg .
+ 1002  ls -ltrh
+ 1003  cd work/protein/Piezo/pure_lipid_calc/
+ 1004  ls -ltrh
+ 1005  cd 2nd_simulation_pure/
+ 1006  ls -ltrh
+ 1007  cd pip2/
+ 1008  ls -ltrh
+ 1009  cd amber/
+ 1010  ls -ltrh
+ 1011  pwd
+ 1012  cd ../
+ 1013  ls -ltrh
+ 1014  cd charmmReducedYodaMemb/
+ 1015  ls -ltrh
+ 1016  cd tension
+ 1017  ls -ltrh
+ 1018  cd pip2_190ns/
+ 1019  ls -ltrh
+ 1020  ls *.mdp 
+ 1021  ls *.mdin
+ 1022  vi step7_production.tension.mdin 
+ 1023  vi step8.001_production.ten.mdin
+ 1024  vi step7_production.tension.mdin 
+ 1025  ls -ltrh
+ 1026  pwd
+ 1027  cd ../
+ 1028  ls -ltrh
+ 1029  cd noyoda_190ns/
+ 1030  ls -ltrh
+ 1031  cd ../
+ 1032  ls -lrht
+ 1033  cd pip2_190ns/
+ 1034  ls -ltrh
+ 1035  ls *.nc
+ 1036  cd mdstress
+ 1037  ls
+ 1038  ls -ltrh
+ 1039  ls *.nc -ltrh
+ 1040  ls -ltrh
+ 1041  cat density_steps 
+ 1042  ls -ltrh
+ 1043  cat tensorNC 
+ 1044  cat select_comm 
+ 1045  vi ../s7.001.1st.pdb 
+ 1046  gmx select -f ../s7.001.1st.pdb -s stress.tpr -on K2182-2185.ndx -select 'resid 1054 to 1057 2472 to 2475 3890 to 3893'
+ 1047  gmx select -f ../s7.001.1st.pdb -s stress.tpr -on R1023-1025.ndx -select 'resid 242 to 244 1660 to 1662 3078 to 3080 '
+ 1048  ls -ltrh
+ 1049  gmx select -f ../s7.001.1st.pdb -s stress.tpr -on R1671.ndx -select 'resid 687 2105 3523 '
+ 1050  ls -ltrh
+ 1051  cat tensorNC 
+ 1052  cat genDesity3D 
+ 1053  vi genDesity3D 
+ 1054  cat tensorNC 
+ 1055  vi tensorNC 
+ 1056  ./genDesity3D 
+ 1057  ls -ltrh
+ 1058  vi tensorNC 
+ 1059  ./tensorNC 
+ 1060  ls -ltrh
+ 1061  pwd
+ 1062  cat tensorNC 
+ 1063  cd /home/wenjuan/work/protein/Piezo/asym_memb_Replica_pip2_elnedyn22/CGrun_posres/cg_lipid_ana/only_LYS_ARG/1000res_calc_aa_all_lysARG
+ 1064  ls -ltrh
+ 1065  squeue
+ 1066  ls -ltrh
+ 1067  tail slurm-31228.out 
+ 1068  ls -ltrh
+ 1069  cd ../calc_aa_all_lysARG/
+ 1070  ls *.xvg |wc
+ 1071  ls -ltrh
+ 1072  cd ../
+ 1073  ls -ltrh
+ 1074  cd 1000res_calc_aa_all_lysARG/
+ 1075  ls -ltrh
+ 1076  vi run1.sh 
+ 1077  cat run1.sh 
+ 1078  gmx select -f /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/ext1us.xtc  -om -seltype res_com -select "resnr 333 and name CZ CE and within 0.57 of resname SAPI24 and type PC PL " -s /home/wenjuan/work/protein/Piezo/revese_anton2/piezo1_pop5/ext1us/step7.001_production.tpr -nt 5
+ 1079  ls -ltrh
+ 1080  vi need_use_1ns_interval
+ 1081  ls -ltrh
+ 1082  squeue
+ 1083  scancel 31228
+ 1084  squeue
+ 1085  ls -ltrh
+ 1086  vi run1.sh 
+ 1087  ls -ltrh
+ 1088  vi need_use_1ns_interval 
+ 1089  ls -ltrh
+ 1090  sbatch run
+ 1091  sbatch run1.sh 
+ 1092  squeue
+ 1093  ls -ltrh
+ 1094  squeue
+ 1095  ls -ltrh
+ 1096  squeue
+ 1097  ls -ltrh
+ 1098  squeue
+ 1099  ls -ltrh
+ 1100  vi id_1_mask.xvg 
+ 1101  cat run2.sh 
+ 1102  tail -n +18 id_1_mask.xvg > mask.dat
+ 1103  ./resid_time_v1.sh 
+ 1104  ls -ltrh
+ 1105  squeue
+ 1106  ls -ltrh
+ 1107  squeue
+ 1108  ls *.xvg | wc
+ 1109  ls -ltrh
+ 1110  ls *.xvg | wc
+ 1111  history > today
